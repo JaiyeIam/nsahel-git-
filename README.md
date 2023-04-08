@@ -8,7 +8,8 @@ git commit: open a text eitor to write commit message
     git commit -m "MESSAGE" :wrutes MESSAGES as a commit without a text editor 
 git log : shows  the log (hostory) of our commits  
   git log --oneline : shows the shoter online commit 
-
+#Remotes
+    
 git diff : compareb current uncommited state with the last know git state 
 git diff --staged : runs git diff between the stagin area an the last know state 
 git diff HEAD ~3<NUMBER>: compare HEAD with commit <NUMBER> ago ( relative)
